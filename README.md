@@ -40,3 +40,8 @@ The task is episodic, and in order to solve the environment, your agent must get
 pip -q install ./python
 ```
 
+4. Open `Navigation.ipynb` using jupyter notebook and follow the instruction to train and test the agent
+
+```console
+jupyter notebook --ip=0.0.0.0
+```
