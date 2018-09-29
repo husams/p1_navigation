@@ -20,4 +20,6 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The agent should receive reward of +1 for each yellow banana and -1 one for blue
 
-## Training
+## Learning Algorithm
+
+  I used Double Q-Learning which was introduced by Deep Mind paper "[Deep Reinforcement Learning with Double Q-learning](https://arxiv.org/pdf/1509.06461.pdf")" as an imporovment to there original algorithm Deep Q-Learning (DQN).
