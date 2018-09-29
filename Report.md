@@ -15,3 +15,9 @@ The environment has the following 4 discrete values for the actions:
 ### State
 
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction.
+
+### Reward
+
+The agent should receive reward of +1 for each yellow banana and -1 one for blue
+
+## Training
