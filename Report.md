@@ -86,3 +86,12 @@ Environment solved in 694 episodes!	Average Score: 16.02
 ```
 
 ![Training Result](training-result.png)
+
+## Ideas for Future Work
+
+Implement [Rainbow](https://arxiv.org/abs/1710.02298") which incorporate all the research papers which was published as an improvement to the original paper
+- Learning from [multi-step bootstrap targets ](https://arxiv.org/abs/1602.01783")
+- [Double DQN](https://www.ri.cmu.edu/pub_files/pub1/thrun_sebastian_1993_1/thrun_sebastian_1993_1.pdf")
+- [Prioritised experience replay](https://arxiv.org/abs/1511.05952")
+- [Distributional DQN](https://arxiv.org/abs/1707.06887")
+- [Noisy DQN](https://arxiv.org/abs/1706.10295")
