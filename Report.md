@@ -49,10 +49,26 @@ And for optimisation the neural network uses MSE lose function.
 
 ## Implementation
 
-1. model.py :  
-  Contains the implementation of the neural network
-2. replay_memory.py
-3. agent.py
+- model.py :  
+
+Contains the implementation of the neural network
+
+- replay_memory.py:
+
+Contains the implementation of the circular buffer, the class has two methods one used to add experience, and anther one used to sample random experience
+
+- agent.py:
+
+Contains the main agent code which used for training, The implementation based on the code from the excretes, the code contains 4 main methods
+
+1. step:  Add new experience and update Q-Network when every n number of steps
+2. act: Run inference using Q-Network to predict the next action based on the current state.
+3. learn: Update Q-Network when every n number of steps.
+4. soft_update: Update target Q-Network.
+
+- Navigation.ipynb:
+
+Contains the Q-Learning algorithm (Code block 4), and testing (Code block 5)
 
 
 ## Training result
