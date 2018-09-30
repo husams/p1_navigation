@@ -68,3 +68,5 @@ Episode 700	Average Score: 14.95
 Episode 794	Average Score: 16.02
 Environment solved in 694 episodes!	Average Score: 16.02
 ```
+
+![Training Result](training-result.png)
